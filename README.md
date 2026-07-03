@@ -1,8 +1,8 @@
 # Neural Network Project Collection
 
-This repository contains three neural network and deep learning projects completed during the 2023 fall semester. The topics cover neural network training from first principles, CNN-based image classification, and YOLOv8-based face detection training.
+This repository contains three neural network and deep learning projects focused on model implementation, image classification, and object detection training. The topics cover neural network training from first principles, CNN-based image classification, and YOLOv8-based face detection.
 
-本專案包含 2023 上學期「人工智慧、神經網路與深度學習」課程中的三個實作主題，內容涵蓋從基礎原理實作神經網路、使用 CNN 進行影像分類，以及使用 YOLOv8 進行臉部偵測訓練。
+本專案集合三個神經網路與深度學習實作主題，內容涵蓋從基礎原理實作神經網路、使用 CNN 進行影像分類，以及使用 YOLOv8 進行臉部偵測訓練。
 
 ## Projects
 
