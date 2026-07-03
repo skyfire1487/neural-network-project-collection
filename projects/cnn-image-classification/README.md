@@ -23,9 +23,9 @@ This project builds CNN image classification experiments with TensorFlow/Keras. 
 
 ## Result Notes
 
-The selected notebook records a validation accuracy around 0.79 in the final comparison. The result is presented as a course experiment record. It is useful for showing the effect of architecture and training-setting changes, not as a benchmark against current image-classification models.
+The selected notebook records a validation accuracy around 0.79 in the final comparison. The result is useful for observing the effect of architecture and training-setting changes.
 
 ## Limitations
 
 - The notebook may require dataset paths to be set before rerunning.
-- Trained checkpoint files are not required for reading the implementation and experiment flow.
+- The implementation and experiment flow can be reviewed from the notebook and result figures.

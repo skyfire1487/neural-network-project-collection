@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project documents a YOLOv8 face detection training experiment. The focus is on configuring training, observing validation behavior, and reviewing detection output. The project uses Ultralytics YOLOv8 as the framework, so the original contribution is the training setup, experiment process, and result interpretation rather than the YOLOv8 framework implementation itself.
+This project documents a YOLOv8 face detection training experiment. The focus is on configuring training, observing validation behavior, and reviewing detection output with Ultralytics YOLOv8.
 
 本專案記錄 YOLOv8 臉部偵測訓練流程，重點是訓練設定、驗證曲線、混淆矩陣與預測結果檢查。此專案使用 Ultralytics YOLOv8 作為訓練框架，實作重點放在資料設定、訓練流程與結果分析。
 
@@ -41,4 +41,4 @@ The selected public run is `yolov8x_e10+66`.
 ## Limitations
 
 - Dataset paths need to be configured before rerunning training.
-- Trained `.pt` weights are not required for reading the training setup and result summary.
+- The training setup and result summary are documented through the configuration file and result figures.
