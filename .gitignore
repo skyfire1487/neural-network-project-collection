@@ -1,0 +1,35 @@
+# Ignore everything by default. This folder keeps the original local course
+# materials, but only the portfolio-facing files below are published.
+*
+
+!.gitignore
+!README.md
+!requirements.txt
+
+!projects/
+projects/*
+
+!projects/neural-network-from-scratch/
+projects/neural-network-from-scratch/*
+!projects/neural-network-from-scratch/README.md
+!projects/neural-network-from-scratch/train_digit_classifier_from_scratch.ipynb
+!projects/neural-network-from-scratch/network-architecture.png
+!projects/neural-network-from-scratch/forward-pass.svg
+
+!projects/cnn-image-classification/
+projects/cnn-image-classification/*
+!projects/cnn-image-classification/README.md
+!projects/cnn-image-classification/train_cifar_cnn.ipynb
+!projects/cnn-image-classification/model-architecture.png
+!projects/cnn-image-classification/training-curves-final.png
+!projects/cnn-image-classification/ranking-summary.png
+
+!projects/yolov8-face-detection-training/
+projects/yolov8-face-detection-training/*
+!projects/yolov8-face-detection-training/README.md
+!projects/yolov8-face-detection-training/training-args.yaml
+!projects/yolov8-face-detection-training/training-results.png
+!projects/yolov8-face-detection-training/confusion-matrix.png
+!projects/yolov8-face-detection-training/f1-curve.png
+!projects/yolov8-face-detection-training/precision-recall-curve.png
+!projects/yolov8-face-detection-training/validation-predictions-sample.jpg
