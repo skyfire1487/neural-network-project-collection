@@ -22,10 +22,9 @@ This project implements a small feedforward neural network for handwritten digit
 
 ## Result Notes
 
-The original experiment records show validation accuracy improving over training. The strongest original run found during cleanup reached about 0.96 validation accuracy. The public notebook is a cleaned copy, so execution outputs and local machine paths were removed.
+The experiment records show validation accuracy improving over training. The strongest recorded run reached about 0.96 validation accuracy.
 
 ## Limitations
 
-- The dataset is not included in this repository.
-- The notebook may need path updates before rerunning.
+- The notebook may need dataset path updates before rerunning.
 - The goal is to document the learning process of neural network training, not to provide a production digit-recognition system.

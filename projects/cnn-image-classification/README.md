@@ -27,6 +27,5 @@ The selected notebook records a validation accuracy around 0.79 in the final com
 
 ## Limitations
 
-- The image dataset and trained model checkpoint files are not included.
-- Some original experiment checkpoints were excluded because they are large binary files.
-- The notebook may require local dataset paths to be set before rerunning.
+- The notebook may require dataset paths to be set before rerunning.
+- Trained checkpoint files are not required for reading the implementation and experiment flow.

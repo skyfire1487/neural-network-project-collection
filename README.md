@@ -1,8 +1,8 @@
 # Neural Network Project Collection
 
-This repository collects three course projects from the 2023 fall semester course on artificial intelligence, neural networks, and deep learning. The materials were reorganized for portfolio review, with the original course submission labels, identifier-based filenames, local datasets, model weights, and third-party framework source files removed.
+This repository contains three neural network and deep learning projects completed during the 2023 fall semester. The topics cover neural network training from first principles, CNN-based image classification, and YOLOv8-based face detection training.
 
-本專案整理自 2023 上學期「人工智慧、神經網路與深度學習」課程中的三個實作主題。整理後的版本以履歷展示為目標，保留方法、流程、結果圖與可讀程式碼，移除原始課程提交標籤、識別碼檔名、本機資料集、模型權重與第三方框架原始碼。
+本專案包含 2023 上學期「人工智慧、神經網路與深度學習」課程中的三個實作主題，內容涵蓋從基礎原理實作神經網路、使用 CNN 進行影像分類，以及使用 YOLOv8 進行臉部偵測訓練。
 
 ## Projects
 
@@ -25,13 +25,13 @@ This repository collects three course projects from the 2023 fall semester cours
 - The CNN image classification experiment records validation accuracy around 0.79 in the selected run, with additional comparisons for convolution depth, normalization, dropout, and augmentation.
 - The YOLOv8 face detection selected run `yolov8x_e10+66` records final validation metrics around precision 0.871, recall 0.649, mAP50 0.743, and mAP50-95 0.427.
 
-These numbers are included as course experiment records, not as benchmark claims. The focus of this repository is to show the implementation process, model design choices, and experiment documentation.
+These numbers summarize the observed training records in this project. The focus is on the implementation process, model design choices, and experiment documentation.
 
 ## How to Read This Repository
 
-Start with each topic folder's README. The notebooks are included as cleaned portfolio copies: outputs and local path traces were removed, while the main code structure and implementation flow were preserved.
+Start with each topic folder's README. The notebooks preserve the main code structure and implementation flow for each experiment.
 
-Each topic folder under `projects/` contains its own selected diagrams, result images, notebook, and configuration files where applicable. Local-only course materials remain on the original machine but are excluded from Git tracking.
+Each topic folder under `projects/` contains its own diagrams, result images, notebook, and configuration files where applicable.
 
 ## Suggested Environment
 
@@ -41,4 +41,4 @@ The original projects were developed with Python notebooks. A modern environment
 pip install -r requirements.txt
 ```
 
-The notebooks may still require dataset paths to be adjusted before rerunning, because the raw course datasets are not included in this public repository.
+The notebooks may require dataset paths to be adjusted before rerunning.

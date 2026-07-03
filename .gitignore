@@ -1,5 +1,5 @@
-# Ignore everything by default. This folder keeps the original local course
-# materials, but only the portfolio-facing files below are published.
+# Ignore everything by default, then allow only the project files used by this
+# repository.
 *
 
 !.gitignore
